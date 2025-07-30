@@ -1940,11 +1940,14 @@
 
 .x390w-light .overlap-group-container {
   align-self: center;
+
+  
   height: 153px;
   margin-left: 23.46px;
   margin-top: 13px;
   position: relative;
   width: 301px;
+  
 }
 
 .x390w-light .overlap-group-3 {
@@ -3032,6 +3035,7 @@
   left: 0;
   min-height: 627px;
   padding: 29px 0;
+  margin: 0 auto;
   position: absolute;
   top: 148px;
   width: 390px;
