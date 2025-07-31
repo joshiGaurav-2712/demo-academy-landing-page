@@ -3,8 +3,6 @@
 /* The following line is used to measure usage of this code. You can remove it if you want. */
 @import url("https://px.animaapp.com/6871fb37cc5fb7b737f110a8.6871fb38cc5fb7b737f110ab.sXRcOcB.hcp.png");
 
-
-
 .screen a {
   display: contents;
   text-decoration: none;
@@ -16,6 +14,8 @@
   justify-content: center;
   pointer-events: none;
   width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .container-center-horizontal > * {
@@ -31,4 +31,11 @@
 
 * {
   box-sizing: border-box;
+}
+
+/* Prevent horizontal overflow */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
 }
