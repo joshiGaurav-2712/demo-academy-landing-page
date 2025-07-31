@@ -949,6 +949,7 @@
   min-height: 3342px;
   width: 100%;
   max-width: 358px;
+  margin-bottom: 20px; /* CHANGE: Add bottom margin for proper spacing with footer */
 }
 
 .x390w-light .navbar::-webkit-scrollbar {
@@ -2953,7 +2954,7 @@
 }
 
 .x390w-light .overlap-group13 {
-  height: 775px;
+  height: 120px;
   margin-top: 16px;
   position: relative;
   width: 390px;
@@ -3039,13 +3040,14 @@
   flex-direction: column;
   height: auto;
   justify-content: flex-start;
-  left: 0;
+  left: 50%; /* CHANGE: Center horizontally */
   min-height: 627px;
   padding: 29px 0;
-  margin: 0 auto;
-  position: absolute;
-  top: 148px;
-  width: 390px;
+  margin: 0;
+  position: relative; /* CHANGE: From absolute to relative for normal document flow */
+  top: 0; /* CHANGE: Reset top position */
+  transform: translateX(-50%); /* CHANGE: Center the footer */
+  width: 100vw; /* CHANGE: Full viewport width instead of 390px */
 }
 
 .x390w-light .flex-col-2 {
@@ -3053,6 +3055,8 @@
   align-self: center;
   min-height: 345px;
   width: 358px;
+  max-width: 390px; /* CHANGE: Add max-width constraint */
+  margin: 0 auto; /* CHANGE: Center the content within the full-width footer */
 }
 
 .x390w-light .heading-3-download-our-app {
