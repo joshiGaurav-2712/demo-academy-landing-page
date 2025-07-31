@@ -40,7 +40,7 @@
   padding: 14px 24px;
   font-family: var(--font-family-open_sans);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   transition: all 0.2s ease;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 102, 204, 0.3); /* Added button shadow */
@@ -131,13 +131,13 @@
 
   .sticky-cart .primary-cta {
     padding: 12px 20px; /* Adjusted padding */
-    font-size: 15px; /* Slightly larger for mobile */
+    font-size: 12px; /* Slightly larger for mobile */
     border-radius: 5px;
   }
 
   .sticky-cart .secondary-cta {
-    padding: 10px 20px; /* Adjusted padding */
-    font-size: 13px; /* Slightly smaller */
+    padding: 12px 20px; /* Adjusted padding */
+    font-size: 12px; /* Slightly smaller */
     border-radius: 5px;
   }
 
@@ -149,7 +149,7 @@
   }
 
   .sticky-cart .troopod_delivery_info {
-    font-size: 13px; /* Slightly smaller text on mobile */
+    font-size: 12px; /* Slightly smaller text on mobile */
     height: 22px; /* Match container height */
     transform: translateY(22px); /* Match container height */
   }
@@ -162,8 +162,8 @@
   }
 
   .sticky-cart .primary-cta {
-    padding: 10px 16px;
-    font-size: 14px;
+    padding: 8px 16px;
+    font-size: 12px;
   }
 
   .sticky-cart .secondary-cta {
