@@ -1852,7 +1852,7 @@
 .x390w-light .heading-2-about-this-product {
   color: var(--torea-bay);
   font-family: var(--font-family-open_sans);
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 700;
   height: 28px;
   letter-spacing: 0;
@@ -2479,7 +2479,7 @@
 .x390w-light .hot-deal {
   color: var(--white);
   font-family: var(--font-family-open_sans);
-  font-size: var(--font-size-xxs);
+  font-size: 9px;
   font-weight: 700;
   height: 16px;
   letter-spacing: 0.8px;
@@ -4069,7 +4069,7 @@
   }
 
   .x390w-light .features-title {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .x390w-light .features-subtitle {
@@ -4231,7 +4231,7 @@
   }
 
   .x390w-light .faq-title {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .x390w-light .faq-subtitle {
