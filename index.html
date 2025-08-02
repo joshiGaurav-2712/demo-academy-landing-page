@@ -322,7 +322,7 @@
           <div
             style="display: flex;justify-content: center;gap: 10px;align-items: center;width: 100%;padding: 10px 10px;background: #FFF;">
             <a href="#enhanced-product-details" class="breadcrum">Overview</a>
-            <a href="#smart-sizing-solution" class="breadcrum">Sizing</a>
+            <a href="#smart-sizing" class="breadcrum">Jelly Roll</a>
             <a href="#faq_section_id" class="breadcrum">FAQs</a>
             <a href="#reviews_section_id" class="breadcrum">Reviews</a>
           </div>
@@ -626,7 +626,7 @@
 
 
           <!-- Enhanced Features Section: Why Jelly Roll Chose These Features -->
-          <section class="enhanced-features" style="margin-top: 24px;">
+          <section id="enhanced-product-details" class="enhanced-features" style="margin-top: 24px;">
             <div class="features-container">
               <div class="features-header">
                 <h2 class="features-title">Why Jelly Roll Chose These Features</h2>
@@ -1215,35 +1215,88 @@
           <!-- Customer Reviews Section -->
           <section class="customer-reviews" id="reviews_section_id" style="margin-top: 24px;">
             <div class="reviews-container">
-              <div class="reviews-header">
-                <h2 class="reviews-title" style="margin-top: -8px;">Customer Love Stories</h2>
-                <div class="reviews-stats">
-                  <div class="overall-rating">
-                    <div class="rating-stars">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700">
+              <!-- Section Title -->
+              <div class="reviews-title-header" style="text-align: center; margin-bottom: 20px;">
+                <h2 style="font-size: 20px; font-weight: 700; color: #1928a0; margin: 0;">Customer Reviews</h2>
+              </div>
+
+              <!-- Overall Rating Display -->
+              <div class="overall-rating-display"
+                style="background: #f8f9fa; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+                <!-- Top Section: Rating and Metrics Side by Side -->
+                <div
+                  style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+                  <!-- Left Side: Main Rating -->
+                  <div class="main-rating" style="text-align: left;">
+                    <div class="rating-number"
+                      style="font-size: 48px; font-weight: 700; color: #13338b; margin-bottom: 8px; line-height: 1;">4.8
+                    </div>
+                    <div class="rating-stars" style="display: flex; gap: 2px; margin-bottom: 8px;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700">
                         <path
                           d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
                       </svg>
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700">
                         <path
                           d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
                       </svg>
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700">
                         <path
                           d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
                       </svg>
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700">
                         <path
                           d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
                       </svg>
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700">
                         <path
                           d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
                       </svg>
                     </div>
-                    <span class="rating-text">4.8 out of 5</span>
+                    <div class="rating-label" style="font-size: 12px; color: #13338b; font-weight: 500;">Overall Rating
+                    </div>
                   </div>
-                  <p class="reviews-count">Based on 14,457+ verified reviews</p>
+
+                  <!-- Right Side: Individual Metrics -->
+                  <div class="rating-metrics"
+                    style="display: flex; flex-direction: column; gap: 8px; min-width: 160px;">
+                    <div class="metric-row" style="display: flex; justify-content: space-between; align-items: center;">
+                      <span style="font-size: 12px; color: #13338b;">Softness</span>
+                      <div style="display: flex; align-items: center; gap: 6px;">
+                        <div
+                          style="width: 60px; height: 3px; background: #e5e7eb; border-radius: 2px; position: relative;">
+                          <div style="width: 98%; height: 100%; background: #13338b; border-radius: 2px;"></div>
+                        </div>
+                        <span style="font-size: 12px; font-weight: 600; color: #13338b; min-width: 20px;">4.9</span>
+                      </div>
+                    </div>
+                    <div class="metric-row" style="display: flex; justify-content: space-between; align-items: center;">
+                      <span style="font-size: 12px; color: #13338b">Quality</span>
+                      <div style="display: flex; align-items: center; gap: 6px;">
+                        <div
+                          style="width: 60px; height: 3px; background: #e5e7eb; border-radius: 2px; position: relative;">
+                          <div style="width: 96%; height: 100%; background: #13338b; border-radius: 2px;"></div>
+                        </div>
+                        <span style="font-size: 12px; font-weight: 600; color: #13338b; min-width: 20px;">4.8</span>
+                      </div>
+                    </div>
+                    <div class="metric-row" style="display: flex; justify-content: space-between; align-items: center;">
+                      <span style="font-size: 12px; color: #13338b">Comfort</span>
+                      <div style="display: flex; align-items: center; gap: 6px;">
+                        <div
+                          style="width: 60px; height: 3px; background: #e5e7eb; border-radius: 2px; position: relative;">
+                          <div style="width: 94%; height: 100%; background: #13338b; border-radius: 2px;"></div>
+                        </div>
+                        <span style="font-size: 12px; font-weight: 600; color: #13338b; min-width: 20px;">4.7</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bottom Section: Verified Reviews Count -->
+                <div class="verified-count" style="text-align: center;">
+                  <div style="font-size: 20px; font-weight: 700; color: #13338b; margin-bottom: 4px;">14,457+</div>
+                  <div style="font-size: 12px; color: #13338b;">Verified Reviews</div>
                 </div>
               </div>
 
