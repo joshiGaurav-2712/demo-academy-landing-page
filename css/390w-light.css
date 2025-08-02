@@ -2961,7 +2961,7 @@
 }
 
 .x390w-light .background-horizontal-border {
-  align-items: flex-end;
+  align-items: center;
   background-color: var(--white);
   border-color: var(--gray-nurse);
   border-top-style: solid;
@@ -2971,7 +2971,7 @@
   gap: 16px;
   left: 0;
   min-height: 148px;
-  padding: 30px 99.8px;
+  padding: 30px 20px;
   position: absolute;
   top: 0;
   width: 390px;
